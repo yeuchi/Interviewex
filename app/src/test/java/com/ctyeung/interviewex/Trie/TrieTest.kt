@@ -4,6 +4,9 @@ import com.ctyeung.Trie.Trie
 import org.junit.Test
 import org.junit.Assert.*
 
+/*
+ * Happy path tests only
+ */
 class TrieTest {
     val TEST_STRING1 = "abcd1"
     val TEST_STRING2 = "abcd2"

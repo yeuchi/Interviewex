@@ -3,6 +3,9 @@ package com.ctyeung.interviewex.Tree
 import org.junit.Test
 import org.junit.Assert.*
 
+/*
+ * Happy path tests only
+ */
 class BinaryTreeTest {
 
     val TEST_NUM1 = 1
