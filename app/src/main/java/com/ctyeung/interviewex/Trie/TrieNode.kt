@@ -21,18 +21,31 @@ class TrieNode {
 
     fun remove(str:String):Boolean {
         val c = str.get(0)
-        val len = str.length
-        when(len) {
-            1 -> {
-                if(nodes.size==0 && isEndOfWord) {
-                    // remove this
+
+        if(c == char) {
+            val len = str.length
+            when (len) {
+                1 -> {
+                    if (nodes.size == 0 && isEndOfWord) {
+                        // remove this word !
+                        return true
+                    }
+                }
+                else -> {
+                    val cc = str.get(1)
+                    val node = nodes[cc]
+
+                    if (node != null) {
+                        val isRemove = node.remove(str.substring(1, str.length))
+                        if (isRemove) {
+                            nodes.remove(cc, node)
+                            return true
+                        }
+                    }
                 }
             }
-            else -> {
-                return remove(str.substring(1, str.length))
-            }
         }
-        return true
+        return false
     }
 
     fun getAllWords(str:String=""):ArrayList<String> {

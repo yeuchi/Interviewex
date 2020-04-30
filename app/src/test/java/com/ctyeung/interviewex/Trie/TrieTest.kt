@@ -46,6 +46,9 @@ class TrieTest {
 
     @Test
     fun remove() {
-
+        val trie = Trie(TEST_STRING1)
+        trie.remove(TEST_STRING1)
+        val list = trie.getAllWords()
+        assertEquals(list.size, 0)
     }
 }
