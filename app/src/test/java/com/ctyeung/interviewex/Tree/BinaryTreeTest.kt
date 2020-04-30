@@ -40,18 +40,37 @@ class BinaryTreeTest {
     }
 
     @Test
-    fun find() {
+    fun depthFirstSearch() {
+
+    }
+
+    @Test
+    fun breadthFirstSearch() {
 
     }
 
     @Test
     fun findMin() {
+        var tree = BinaryTree<Int>(TEST_NUM3)
+        tree.insert(TEST_NUM5)
+        tree.insert(TEST_NUM1)
+        tree.insert(TEST_NUM4)
+        tree.insert(TEST_NUM2)
 
+        val min = tree.findMin()
+        assertEquals(min, TEST_NUM1)
     }
 
     @Test
     fun findMax() {
+        var tree = BinaryTree<Int>(TEST_NUM3)
+        tree.insert(TEST_NUM5)
+        tree.insert(TEST_NUM1)
+        tree.insert(TEST_NUM4)
+        tree.insert(TEST_NUM2)
 
+        val min = tree.findMax()
+        assertEquals(min, TEST_NUM5)
     }
 
     @Test

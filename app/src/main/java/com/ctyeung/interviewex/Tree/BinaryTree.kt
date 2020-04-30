@@ -40,14 +40,19 @@ class BinaryTree<T>(t:T):Comparable<T> {
 
     }
 
-    fun find(t:T):Boolean {
+    fun breadthFirstSearch(t:T):Boolean {
+
+        return false
+    }
+
+    fun depthFirstSearch(t:T):Boolean {
         if(item == t)
             return true
 
-        if( left != null && left!!.find(t) == true )
+        if( left != null && left!!.depthFirstSearch(t) == true )
             return true
 
-        if (right != null && right!!.find(t) == true)
+        if (right != null && right!!.depthFirstSearch(t) == true)
             return true
 
         return false
