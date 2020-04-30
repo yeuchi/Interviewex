@@ -1,0 +1,2 @@
+rootProject.name='InterviewEx'
+include ':app'
