@@ -19,6 +19,10 @@ class TrieNode {
         }
     }
 
+    /*
+     * return type does not describe success
+     * - indicator for parent node to remove child
+     */
     fun remove(str:String):Boolean {
         val c = str.get(0)
 
