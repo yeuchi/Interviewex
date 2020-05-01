@@ -33,6 +33,13 @@ class LinkedList<T> (var item:T?) {
         if (this.item == item) {
 
         }
+    }
 
+    fun head():T? {
+        return item
+    }
+
+    fun tail():T? {
+        return item
     }
 }
