@@ -5,7 +5,7 @@ Interview exercises in Kotlin : Algorithm and data structure
 - basic crud operators 
 - basic junit
 
-### BinaryTree, LIFO, FIFO, LinkedList 04/30/2020
+### Generic: BinaryTree, LIFO, FIFO, LinkedList 04/30/2020
 - LinkedList not done
 - BinaryTree missing remove(), breadthFirstSearch() and balance algorithm
 
