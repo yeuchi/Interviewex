@@ -21,17 +21,21 @@ class LinkedList<T> (var item:T?) {
     }
 
     fun remove(item:T) {
-        if(next != null) {
-            if (next!!.item == item)
-                next == next!!.next
-
-            else
-                next!!.remove(item)
-        }
-
-        // only happens with head
+        // for head only
         if (this.item == item) {
-
+            if(next != null) {
+                this.item = next!!.item
+                next = next!!.next
+            }
+            else
+                this.item = null
+        }
+        else if (next != null) {
+            if(next!!.item == item) {
+                next = next!!.next
+            }
+            else
+                return next!!.remove(item)
         }
     }
 
@@ -40,6 +44,9 @@ class LinkedList<T> (var item:T?) {
     }
 
     fun tail():T? {
+        if(next != null)
+            return next!!.tail()
+
         return item
     }
 }
