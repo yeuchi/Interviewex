@@ -5,6 +5,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import androidx.navigation.findNavController
 import com.ctyeung.interviewex.Sealed.Success
 import com.ctyeung.interviewex.Sealed.handle
 import com.ctyeung.Trie.Trie
@@ -16,10 +17,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         createSealed()
         createTries()
     }
+
+    override fun onSupportNavigateUp(): Boolean = findNavController(R.id.nav_host_fragment).navigateUp()
+
 
     fun createSealed() {
         val success = Success<String>("woo hoo")
