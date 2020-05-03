@@ -1,5 +1,5 @@
 package com.ctyeung.interviewex.Tree
 
-interface Comparable<T> {
+interface IComparable<T> {
     fun compareTo(t:T):Int
 }

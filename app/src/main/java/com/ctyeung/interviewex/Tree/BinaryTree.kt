@@ -1,6 +1,6 @@
 package com.ctyeung.interviewex.Tree
 
-class BinaryTree<T>(t:T):Comparable<T> {
+class BinaryTree<T>(t:T):IComparable<T> {
     var item = t
     var left:BinaryTree<T>? = null
     var right:BinaryTree<T>? = null
