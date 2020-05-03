@@ -16,42 +16,40 @@ class InsertSort {
      * bisection rule
      */
     fun insert(item:Int) {
-        var i = 0
-        when (list.size) {
-            0 -> {}
-            1 -> {
-                if(item > list[0])
-                    i = 1
-            }
-            else -> {
-                i = bisection(item)
-            }
-        }
+        var i = bisection(item)
+
+        if(i<list.size && item > list[i])
+            i++
+
         list.add(i, item)
     }
 
     fun bisection(ab:Int):Int {
 
-        var ju:Double = (this.list.size-1).toDouble();											    // upper limit
-        var jl:Double = 0.0;															    // lower limit
+        var jl = 0
+        var ju = list.size
+        var jm = 0
 
-        while (ju > jl)
+        while (ju - jl > 0)
         {
-            var jm = ((ju + jl)/2).roundToInt();									// midpoint formula
+            jm = ((ju + jl)/2)									// midpoint formula
 
-            if (ab > this.list[jm])
-                jl = jm.toDouble();
-            else
-                ju = jm.toDouble();
+            if(ab == list[jm]) {
+                return jm
+            }
+            if(ab < list[jm]) {
+                ju = jm-1
+
+                if(ju >= list.size)
+                    return list.size
+            }
+            else if (ab > list[jm]){
+                jl = jm+1
+
+                if(jl <= 0)
+                    return 0
+            }
         }
-        return jl.toInt();
-    }
-
-    fun remove(item:Int) {
-        list.remove(item)
-    }
-
-    fun length():Int {
-        return list.size
+        return jl
     }
 }
