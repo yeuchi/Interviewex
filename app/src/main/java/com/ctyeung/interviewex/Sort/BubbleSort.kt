@@ -1,6 +1,6 @@
 package com.ctyeung.interviewex.Sort
 
-class BubbleSort<T>():Comparable<T>() {
+class BubbleSort() {
 
     open fun sort(list:ArrayList<Int>) {
 
@@ -8,11 +8,11 @@ class BubbleSort<T>():Comparable<T>() {
 
             var hasChanged:Boolean = false
             for(j in 0..list.size-2){
-                val item = list[j]
+                val current = list[j]
                 val next = list[j+1]
-                if (item.compareTo(next) > 0) {
+                if (current.compareTo(next) > 0) {
                     list[j] = next
-                    list[j+1] = item
+                    list[j+1] = current
                     hasChanged = true
                 }
             }

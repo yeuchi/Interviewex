@@ -1,7 +1,6 @@
 package com.ctyeung.interviewex.Sort
 
-abstract class Comparable<T>() : IComparable<T> {
-    var item:Any?=null
+abstract class Comparable<T>(var item:T) : IComparable<T> {
 
     override fun compareTo(t: T):Int {
         when (t) {

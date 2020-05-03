@@ -21,7 +21,7 @@ class BubbleSortTest {
                                         TEST_NUM2,
                                         TEST_NUM5)
 
-        var bubble = BubbleSort<Int>()
+        var bubble = BubbleSort()
         bubble.sort(list)
 
         assertEquals(TEST_NUM1, list[0])
