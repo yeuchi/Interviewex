@@ -29,3 +29,6 @@ https://www.geeksforgeeks.org/merge-sort/
 2. Data Structures & algorithm analysis in C++, 2nd Edition by Mark Allen Weiss, 1999 ISBN 0-201-36122-1
 
 3. Numerical Recipes in C, 2nd Edition by Press, Teukolsky, Vetterling, Flannery, 1992 Cambridge University Press
+
+4. Quick Sort GeeksforGeeks
+https://www.geeksforgeeks.org/quick-sort/
