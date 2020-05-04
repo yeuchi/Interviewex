@@ -2,9 +2,9 @@ package com.ctyeung.interviewex.Sort
 
 import kotlin.Comparable
 
-class MergeSort<T>() {
+object MergeSort {
 
-    open fun sort(list:ArrayList<Int>) {
+    fun sort(list:ArrayList<Int>) {
 
     }
 }

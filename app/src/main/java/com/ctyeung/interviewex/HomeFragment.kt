@@ -1,6 +1,7 @@
 package com.ctyeung.interviewex
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -12,6 +13,7 @@ import androidx.navigation.findNavController
 import com.ctyeung.interviewex.databinding.FragmentHomeBinding
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.GridLayoutManager
+import com.ctyeung.interviewex.jsonParser.CountryJson
 import com.ctyeung.interviewex.jsonParser.JSONHelper
 import com.ctyeung.interviewex.network.IRecyclerCallback
 import com.ctyeung.interviewex.network.NetworkUtils
@@ -20,6 +22,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import org.json.JSONArray
 import java.lang.Exception
 import java.net.URL
 
@@ -37,6 +40,7 @@ class HomeFragment : Fragment(), IRecyclerCallback {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    private var jsonArray: JSONArray?=null
     var thisFragment:IRecyclerCallback? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -72,7 +76,21 @@ class HomeFragment : Fragment(), IRecyclerCallback {
     }
 
     fun onClickButton() {
-        var bundle = bundleOf("amount" to "hello ammount")
+        // send 1s country
+        var json:CountryJson?=null
+        if(jsonArray != null) {
+            var countryJson = JSONHelper.parseJsonFromArray(jsonArray!!, 0)
+            json = CountryJson(countryJson!!)
+        }
+        onHandleItemClicked(json)
+    }
+
+    override fun onHandleItemClicked(country:CountryJson?) {
+        var str = ""
+        if(country != null)
+            str = country.json.toString()
+
+        var bundle = bundleOf("country" to str)
         binding!!.root.findNavController().navigate(R.id.action_homeFragment_to_detailFragment, bundle)
     }
 

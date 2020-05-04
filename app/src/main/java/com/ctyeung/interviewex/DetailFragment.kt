@@ -6,8 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import com.ctyeung.interviewex.databinding.FragmentDetailBinding
+import com.ctyeung.interviewex.viewModels.DetailViewModel
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,6 +26,7 @@ class DetailFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
     var binding:FragmentDetailBinding?=null
+    lateinit var model:DetailViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,13 +43,19 @@ class DetailFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_detail, container, false)
         binding = FragmentDetailBinding.bind(view)
-        binding!!.btnDetail.setOnClickListener {
-            var bundle = bundleOf("amount" to "hello amount")
-            it.findNavController().navigate(R.id.action_detailFragment_to_homeFragment, bundle)
-        }
+        binding!!.detail = this
 
-        val amount = arguments?.getString("amount")
+        model = ViewModelProvider(this).get(DetailViewModel::class.java)
+        val country = arguments?.getString("country")
+        if(null!=country) {
+            model.setCountry(country)
+        }
         return view
+    }
+
+    fun onClickButton() {
+        var bundle = bundleOf("amount" to "hello ammount")
+        binding!!.root.findNavController().navigate(R.id.action_detailFragment_to_homeFragment, bundle)
     }
 
     companion object {
