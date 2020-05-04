@@ -22,6 +22,8 @@ Interview exercises in Kotlin : Algorithm and data structure
 
 ### Type Int only: MergeSort 05/4/2020
 
+### Type Int only: QuickSort
+
 ## References
 1. Merge Sort GeeksforGeeks
 https://www.geeksforgeeks.org/merge-sort/
