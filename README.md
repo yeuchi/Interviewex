@@ -13,7 +13,7 @@ Interview exercises in Kotlin : Algorithm and data structure
 - most basic story board with fragments and bundles.
 - traditional async network request/callback and coroutine runBlocking 
 
-### Int only: Bubble Sort, Insert Sort 05/3/2020
+### Type Int only: Bubble Sort, Insert Sort 05/3/2020
 ### Detail fragment
 <img width="200" src="https://user-images.githubusercontent.com/1282659/80932454-0dce1d80-8d85-11ea-8e1a-d254430a1616.png">  <img width="200" src="https://user-images.githubusercontent.com/1282659/80932452-0c045a00-8d85-11ea-9af4-cc10ce301525.png">
 
