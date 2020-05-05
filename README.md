@@ -8,7 +8,7 @@ Interview exercises in Kotlin : Algorithm and data structure
 
 ### Trie 04/29/2020
 
-Trie / Junit
+Trie / Junit \
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Trie
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Trie/TrieTest.kt
 
@@ -16,15 +16,15 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 - BinaryTree missing remove(), breadthFirstSearch() and balance algorithm
 - BinaryTree support Generic Type <T>
 
-First in First out (FIFO or queue) / Junit
+First in First out (FIFO or queue) / Junit \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/FIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/FIFOTest.kt
 
-Last in First out (LIFO or stack)  / Junit
+Last in First out (LIFO or stack)  / Junit \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LIFOTest.kt
 
-LinkedList / Junit
+LinkedList / Junit \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LinkedListTest.kt
 
@@ -36,24 +36,24 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 - most basic story board with fragments and bundles.
 - traditional async network request/callback and coroutine runBlocking 
 
-Model-View-View-Model / data-binding / life-cycle
+Model-View-View-Model / data-binding / life-cycle \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/viewModels/DetailViewModel.kt
 
-Async Network communication RESTful Get()
+Async Network communication RESTful Get() \
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/network
 
-Fragment Architecture Component
+Fragment Architecture Component \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/HomeFragment.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/DetailFragment.kt
 nav_graph https://github.com/yeuchi/Interviewex/tree/master/app/src/main/res/navigation
 
 ### Type Int only: 05/3/2020
 
-BubbleSort / Junit 
+BubbleSort / Junit \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/BubbleSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/BubbleSortTest.kt
 
-InsertSort / Junit 
+InsertSort / Junit \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/InsertSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/InsertSortTest.kt
 
@@ -64,11 +64,11 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 
 ### Type Int only: 05/4/2020
 
-MergeSort / Junit 
+MergeSort / Junit \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/MergeSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/MergeSortTest.kt
 
-QuickSort / Junit 
+QuickSort / Junit \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/QuickSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/QuickSortTest.kt
 
