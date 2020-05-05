@@ -30,6 +30,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 <img width="280" src="https://user-images.githubusercontent.com/1282659/81088433-8be30f00-8ec0-11ea-94a0-e6cf9bf91ae2.png">
 
 #### BinaryTree 04/30/2020
+- BigO average: log n worst case: n
 - missing remove(), breadthFirstSearch() and balance algorithm
 - support Generic Type <T>
   
@@ -46,23 +47,29 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 ## Sort
 
 #### BubbleSort 05/3/2020 
+- BigO worst case: n * n
+- support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/BubbleSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/BubbleSortTest.kt
+<img width="260" src="https://user-images.githubusercontent.com/1282659/81109849-5d752c00-8ee0-11ea-93ff-6af7383772ba.png">
 
 #### InsertSort 
 - sorted internal list
-- bisection rule BigO(log n)
+- bisection rule BigO average: log n
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/InsertSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/InsertSortTest.kt
 <img width="480" src="https://user-images.githubusercontent.com/1282659/81093004-1169bd80-8ec7-11ea-820d-412dda6da1a6.png">
 
-
 #### MergeSort 05/4/2020 
+- BigO average: n log n 
+- support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/MergeSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/MergeSortTest.kt
 <img width="350" src="https://user-images.githubusercontent.com/1282659/81091656-247b8e00-8ec5-11ea-9369-4796985f5919.png">
 
 #### QuickSort 
+- BigO average: n log n worst case: n * n 
+- support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/QuickSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/QuickSortTest.kt
 <img width="400" src="https://user-images.githubusercontent.com/1282659/81103180-4e897c00-8ed6-11ea-9c78-c99f3c7e0ca3.png">
