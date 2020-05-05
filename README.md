@@ -14,6 +14,11 @@ https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Trie/TrieTest.kt
 <img width="500" src="https://user-images.githubusercontent.com/1282659/81087279-20e50880-8ebf-11ea-80d5-b4ae3aade136.png">
 
+#### LinkedList 04/30/2020 (can be implemented as LIFO / FIFO)
+https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
+https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LinkedListTest.kt
+<img width="280" src="https://user-images.githubusercontent.com/1282659/81089720-4de6ea80-8ec2-11ea-8b28-1050c2df319a.png">
+
 #### First in First out (FIFO or queue) 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/FIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/FIFOTest.kt
@@ -23,11 +28,6 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LIFOTest.kt
 <img width="280" src="https://user-images.githubusercontent.com/1282659/81088433-8be30f00-8ec0-11ea-94a0-e6cf9bf91ae2.png">
-
-#### LinkedList 04/30/2020
-https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
-https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LinkedListTest.kt
-<img width="410" src="https://user-images.githubusercontent.com/1282659/81089720-4de6ea80-8ec2-11ea-8b28-1050c2df319a.png">
 
 #### BinaryTree 04/30/2020
 - missing remove(), breadthFirstSearch() and balance algorithm
@@ -41,6 +41,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/Graph.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/GraphTest.kt
 <img width="290" src="https://user-images.githubusercontent.com/1282659/81088917-470ba800-8ec1-11ea-9f5f-52103767445a.png">
+
 
 ## Sort
 
