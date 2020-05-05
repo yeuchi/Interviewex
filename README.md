@@ -27,6 +27,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 #### LinkedList 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LinkedListTest.kt
+<img width="410" src="https://user-images.githubusercontent.com/1282659/81089720-4de6ea80-8ec2-11ea-8b28-1050c2df319a.png">
 
 #### BinaryTree 04/30/2020
 - missing remove(), breadthFirstSearch() and balance algorithm
