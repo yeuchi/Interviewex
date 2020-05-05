@@ -60,6 +60,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 #### Navigation Architecture Component, Async Network Request 05/1/2020
 - most basic story board with fragments and bundles.
 - traditional async network request/callback and coroutine runBlocking 
+- should use Gson for JSON deserialization; But Gson does not support nested objects so use JsonHelpers.
 
 Model-View-View-Model / data-binding / life-cycle \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/viewModels/DetailViewModel.kt
