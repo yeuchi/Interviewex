@@ -50,6 +50,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 - support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/BubbleSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/BubbleSortTest.kt
+<img width="380" src="https://user-images.githubusercontent.com/1282659/81109849-5d752c00-8ee0-11ea-93ff-6af7383772ba.png">
 
 #### InsertSort 
 - sorted internal list
@@ -57,7 +58,6 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/InsertSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/InsertSortTest.kt
 <img width="480" src="https://user-images.githubusercontent.com/1282659/81093004-1169bd80-8ec7-11ea-820d-412dda6da1a6.png">
-
 
 #### MergeSort 05/4/2020 
 - BigO n log n 
