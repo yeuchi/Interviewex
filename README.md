@@ -50,8 +50,11 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/BubbleSortTest.kt
 
 #### InsertSort 
+- sorted internal list
+- bisection rule BigO(log n)
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/InsertSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/InsertSortTest.kt
+<img width="400" src="https://user-images.githubusercontent.com/1282659/81090651-aff41f80-8ec3-11ea-9194-3e5e1f4452e3.png">
 
 #### MergeSort 05/4/2020 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/MergeSort.kt
