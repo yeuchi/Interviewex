@@ -31,7 +31,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 
 #### BinaryTree 04/30/2020
 - BigO average: log n worst case: n
-- missing remove(), breadthFirstSearch() and balance algorithm
+- missing remove() and balance algorithm
 - support Generic Type <T>
   
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Tree
