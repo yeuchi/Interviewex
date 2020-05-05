@@ -34,4 +34,20 @@ class GraphTest {
         assertEquals(TEST_NUM4, evenSet!!.elementAt(1))
         assertEquals(TEST_NUM6, evenSet!!.elementAt(2))
     }
+
+    @Test
+    fun removeEdge() {
+        var graph = Graph<Int>()
+        graph.addEdge(TEST_NUM1, TEST_NUM1)
+        graph.addEdge(TEST_NUM1, TEST_NUM3)
+        graph.addEdge(TEST_NUM1, TEST_NUM5)
+
+        graph.removeEdge(TEST_NUM1, TEST_NUM3)
+        var oddSet:HashSet<Int>? = graph.hashmap[TEST_NUM1]
+        val hasEdge = oddSet!!.contains(TEST_NUM3)
+
+        assertEquals(false, hasEdge)
+        assertEquals(TEST_NUM1, oddSet!!.elementAt(0))
+        assertEquals(TEST_NUM5, oddSet!!.elementAt(1))
+    }
 }
