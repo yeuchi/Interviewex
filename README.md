@@ -54,7 +54,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 - bisection rule BigO(log n)
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/InsertSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/InsertSortTest.kt
-<img width="480" src="https://user-images.githubusercontent.com/1282659/81091725-3b21e500-8ec5-11ea-839f-c121df0ebc49.png">
+<img width="480" src="https://user-images.githubusercontent.com/1282659/81093004-1169bd80-8ec7-11ea-820d-412dda6da1a6.png">
 
 
 #### MergeSort 05/4/2020 
