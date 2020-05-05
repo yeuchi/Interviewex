@@ -51,7 +51,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 - support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/BubbleSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/BubbleSortTest.kt
-<img width="280" src="https://user-images.githubusercontent.com/1282659/81109849-5d752c00-8ee0-11ea-93ff-6af7383772ba.png">
+<img width="260" src="https://user-images.githubusercontent.com/1282659/81109849-5d752c00-8ee0-11ea-93ff-6af7383772ba.png">
 
 #### InsertSort 
 - sorted internal list
