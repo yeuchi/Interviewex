@@ -22,6 +22,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 #### Last in First out (LIFO or stack)  04/30/2020 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LIFOTest.kt
+<img width="300" src="https://user-images.githubusercontent.com/1282659/81088433-8be30f00-8ec0-11ea-94a0-e6cf9bf91ae2.png">
 
 #### LinkedList 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
