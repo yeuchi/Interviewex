@@ -17,6 +17,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 #### First in First out (FIFO or queue) 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/FIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/FIFOTest.kt
+<img width="400" src="https://user-images.githubusercontent.com/1282659/81087782-bbdde280-8ebf-11ea-8a98-6359d9a9b641.png">
 
 #### Last in First out (LIFO or stack)  04/30/2020 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LIFO.kt
