@@ -35,7 +35,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
   
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Tree
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Tree/BinaryTreeTest.kt
-<img width="280" src="https://user-images.githubusercontent.com/1282659/81089266-c4371d00-8ec1-11ea-81fa-aa5baac62692.png">
+<img width="260" src="https://user-images.githubusercontent.com/1282659/81089266-c4371d00-8ec1-11ea-81fa-aa5baac62692.png">
 
 #### Graph 05/5/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/Graph.kt
@@ -54,7 +54,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 - bisection rule BigO(log n)
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/InsertSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/InsertSortTest.kt
-<img width="480" src="https://user-images.githubusercontent.com/1282659/81091725-3b21e500-8ec5-11ea-839f-c121df0ebc49.png">
+<img width="480" src="https://user-images.githubusercontent.com/1282659/81093004-1169bd80-8ec7-11ea-820d-412dda6da1a6.png">
 
 
 #### MergeSort 05/4/2020 
@@ -65,6 +65,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 #### QuickSort 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/QuickSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/QuickSortTest.kt
+<img width="400" src="https://user-images.githubusercontent.com/1282659/81103180-4e897c00-8ed6-11ea-9c78-c99f3c7e0ca3.png">
 
 
 ## Android basics
