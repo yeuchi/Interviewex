@@ -3,7 +3,7 @@ Interview exercises in Kotlin : Algorithm and data structure
 
 - basic CRUD operations (No detail edge cases)
 - speed implementation of code / happy path tests for interview. (not optimized)
-- test only cover 'happy paths' (no failure, boundary conditions)
+- Junit tests cover 'happy paths' (no failure, boundary conditions)
 - little generic coverage.
 
 
