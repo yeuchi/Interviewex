@@ -41,12 +41,27 @@ class BinaryTreeTest {
 
     @Test
     fun depthFirstSearch() {
+        var tree = BinaryTree<Int>(TEST_NUM5)
+        tree.insert(TEST_NUM3)
+        tree.insert(TEST_NUM1)
+        tree.insert(TEST_NUM2)
+        tree.insert(TEST_NUM4)
 
+        val isFound = tree.depthFirstSearch(TEST_NUM4)
+        assertEquals(true, isFound)
     }
 
     @Test
     fun breadthFirstSearch() {
+        var tree = BinaryTree<Int>(TEST_NUM5)
+        tree.insert(TEST_NUM3)
+        tree.insert(TEST_NUM1)
+        tree.insert(TEST_NUM2)
+        tree.insert(TEST_NUM4)
 
+        tree.initBFS()
+        val isFound = tree.breadthFirstSearch(TEST_NUM4)
+        assertEquals(true, isFound)
     }
 
     @Test

@@ -5,6 +5,10 @@ class BinaryTree<T>(t:T):IComparable<T> {
     var left:BinaryTree<T>? = null
     var right:BinaryTree<T>? = null
 
+    companion object {
+        var hashMap = HashMap<Int, HashSet<Any>>()
+    }
+
     fun insert(t:T):Boolean {
         val compared = compareTo(t)
         when {
@@ -40,8 +44,46 @@ class BinaryTree<T>(t:T):IComparable<T> {
 
     }
 
-    fun breadthFirstSearch(t:T):Boolean {
+    // create hash for each level of nodes
+    fun initBFS(level:Int=0) {
 
+        // root clears hashMap for initialization
+        if(level == 0) {
+            hashMap.clear()
+        }
+
+        // create/retrieve hashset for the level
+        var hashSet:HashSet<Any>?=null
+        if(hashMap.contains(level)) {
+            hashSet = hashMap[level]
+        }
+        else {
+            hashSet = HashSet<Any>()
+            hashMap.put(level, hashSet)
+        }
+
+        // add this to hash
+        hashSet!!.add(this)
+
+        // recursion
+        if(left != null)
+            left!!.initBFS(level+1)
+
+        if(right != null)
+            right!!.initBFS(level+1)
+    }
+
+    // search tree by level
+    fun breadthFirstSearch(t:T):Boolean {
+        val keys = hashMap.keys
+        for(key in keys) {
+            val hashSet = hashMap[key]
+            hashSet!!.forEach {
+                val node = it as BinaryTree<T>
+                if(node.item == t)
+                    return true
+            }
+        }
         return false
     }
 
