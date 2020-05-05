@@ -12,6 +12,7 @@ Interview exercises in Kotlin : Algorithm and data structure
 #### Trie 04/29/2020 
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Trie
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Trie/TrieTest.kt
+<img width="800" src="https://user-images.githubusercontent.com/1282659/81087279-20e50880-8ebf-11ea-80d5-b4ae3aade136.png">
 
 #### First in First out (FIFO or queue) 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/FIFO.kt
