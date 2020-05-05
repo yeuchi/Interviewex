@@ -46,6 +46,8 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 ## Sort
 
 #### BubbleSort 05/3/2020 
+- BigO n * n
+- support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/BubbleSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/BubbleSortTest.kt
 
@@ -58,11 +60,15 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 
 
 #### MergeSort 05/4/2020 
+- BigO n log n 
+- support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/MergeSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/MergeSortTest.kt
 <img width="350" src="https://user-images.githubusercontent.com/1282659/81091656-247b8e00-8ec5-11ea-9369-4796985f5919.png">
 
 #### QuickSort 
+- BigO n * n 
+- support parallel processing
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Sort/QuickSort.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Sort/QuickSortTest.kt
 <img width="400" src="https://user-images.githubusercontent.com/1282659/81103180-4e897c00-8ed6-11ea-9c78-c99f3c7e0ca3.png">
