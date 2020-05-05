@@ -9,19 +9,19 @@ Interview exercises in Kotlin : Algorithm and data structure
 
 ## Data structures
 
-##### Trie 04/29/2020 \ 
+##### Trie 04/29/2020 
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Trie
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Trie/TrieTest.kt
 
-##### First in First out (FIFO or queue) 04/30/2020\
+##### First in First out (FIFO or queue) 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/FIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/FIFOTest.kt
 
-##### Last in First out (LIFO or stack)  04/30/2020 \
+##### Last in First out (LIFO or stack)  04/30/2020 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LIFOTest.kt
 
-##### LinkedList / Junit 04/30/2020\
+##### LinkedList 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LinkedListTest.kt
 
