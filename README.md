@@ -12,18 +12,22 @@ Interview exercises in Kotlin : Algorithm and data structure
 #### Trie 04/29/2020 
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Trie
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Trie/TrieTest.kt
+<img width="500" src="https://user-images.githubusercontent.com/1282659/81087279-20e50880-8ebf-11ea-80d5-b4ae3aade136.png">
+
+#### LinkedList 04/30/2020 (can be implemented as LIFO / FIFO)
+https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
+https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LinkedListTest.kt
+<img width="280" src="https://user-images.githubusercontent.com/1282659/81089720-4de6ea80-8ec2-11ea-8b28-1050c2df319a.png">
 
 #### First in First out (FIFO or queue) 04/30/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/FIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/FIFOTest.kt
+<img width="410" src="https://user-images.githubusercontent.com/1282659/81087782-bbdde280-8ebf-11ea-8a98-6359d9a9b641.png">
 
 #### Last in First out (LIFO or stack)  04/30/2020 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LIFO.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LIFOTest.kt
-
-#### LinkedList 04/30/2020
-https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/List/LinkedList.kt
-https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/List/LinkedListTest.kt
+<img width="280" src="https://user-images.githubusercontent.com/1282659/81088433-8be30f00-8ec0-11ea-94a0-e6cf9bf91ae2.png">
 
 #### BinaryTree 04/30/2020
 - missing remove(), breadthFirstSearch() and balance algorithm
@@ -31,10 +35,13 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
   
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Tree
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Tree/BinaryTreeTest.kt
+<img width="280" src="https://user-images.githubusercontent.com/1282659/81089266-c4371d00-8ec1-11ea-81fa-aa5baac62692.png">
 
 #### Graph 05/5/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/Graph.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/GraphTest.kt
+<img width="290" src="https://user-images.githubusercontent.com/1282659/81088917-470ba800-8ec1-11ea-9f5f-52103767445a.png">
+
 
 ## Sort
 
@@ -60,6 +67,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 #### Navigation Architecture Component, Async Network Request 05/1/2020
 - most basic story board with fragments and bundles.
 - traditional async network request/callback and coroutine runBlocking 
+- should use Gson for JSON deserialization; But Gson does not support nested objects so use JsonHelpers.
 
 Model-View-View-Model / data-binding / life-cycle \
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/viewModels/DetailViewModel.kt
