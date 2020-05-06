@@ -14,15 +14,13 @@ class BubbleSortTest {
 
     @Test
     fun sort() {
-        var list = arrayListOf<Int>(  TEST_NUM3,
+        var list = arrayListOf<Any>(  TEST_NUM3,
                                         TEST_NUM1,
                                         TEST_NUM6,
                                         TEST_NUM4,
                                         TEST_NUM2,
                                         TEST_NUM5)
-
-        var bubble = BubbleSort()
-        bubble.sort(list)
+        BubbleSort.sort(list)
 
         assertEquals(TEST_NUM1, list[0])
         assertEquals(TEST_NUM2, list[1])
