@@ -1,7 +1,7 @@
 # Interviewex
 Interview exercises in Kotlin : Algorithm and data structure
 
-- basic CRUD operations (No detail edge cases)
+- basic operators (No detail edge cases)
 - speed implementation of code / happy path tests for interview. (not optimized)
 - Junit tests cover 'happy paths' (no failure, boundary conditions)
 - little generic coverage.
@@ -31,7 +31,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 
 #### BinaryTree 04/30/2020
 - BigO average: log n worst case: n
-- missing remove(), breadthFirstSearch() and balance algorithm
+- missing remove() and balance algorithm
 - support Generic Type <T>
   
 https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/interviewex/Tree
