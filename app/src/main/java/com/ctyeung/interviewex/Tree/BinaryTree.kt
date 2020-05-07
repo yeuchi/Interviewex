@@ -10,6 +10,12 @@ class BinaryTree<T>(t:T):IComparable<T> {
     }
 
     fun insert(t:T):Boolean {
+        // am I empty ?
+        if(item == null){
+            item = t
+            return true
+        }
+
         val compared = compareTo(t)
         when {
             compared < 0 -> {
@@ -40,8 +46,39 @@ class BinaryTree<T>(t:T):IComparable<T> {
         }
     }
 
-    fun remove() {
+    fun remove(t:T):Boolean {
+        /*
+         currently -- can't remove last node, unless we allow item == null
+         
+        // we found it !
+        if (item == t) {
+            // replace this with nearest smaller value
+            if (left != null) {
+                val max = left!!.findMax()
+                item = max
+                return left!!.remove(max)
+            }
+            else if(right !=null) {
+                val min = right!!.findMin()
+                item = min
+                return right!!.remove(min)
+            }
 
+            // last empty child node -- should be deleted
+            return true
+        }
+        else {
+            // find and remove it from children
+            var isRemoved = false
+            if(left!=null) {
+               isRemoved = left!!.remove(t)
+            }
+            if(!isRemoved && right != null)
+                return right!!.remove(t)
+        }
+        // not found
+        */
+        return false
     }
 
     // create hash for each level of nodes
