@@ -58,6 +58,13 @@ class DijkstraShortPathTest {
         assertEquals(TEST_VERTEX_G, pathG!![3])
     }
 
+    /*
+     *     B      E
+     *   / | \  / | \
+     *  A  |   D  |  G
+     *   \ | /  \ | /
+     *     C      F
+     */
     private fun createGraph():Graph<String> {
         var graph = Graph<String>()
         graph.addEdge(TEST_VERTEX_A, TEST_VERTEX_B)
