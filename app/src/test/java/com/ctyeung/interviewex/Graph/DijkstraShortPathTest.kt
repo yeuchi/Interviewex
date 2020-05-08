@@ -27,7 +27,7 @@ class DijkstraShortPathTest {
         getConnected(dijkstra)
 
         // get paths for multiple jumps
-        getConnectedPaths(dijkstra)
+        getMultipleJumpPaths(dijkstra)
     }
 
     private fun getConnected(dijkstra:DijkstraShortPath<String>) {
@@ -40,7 +40,7 @@ class DijkstraShortPathTest {
         assertEquals(TEST_VERTEX_C, pathC!![0])
     }
 
-    private fun getConnectedPaths(dijkstra:DijkstraShortPath<String>) {
+    private fun getMultipleJumpPaths(dijkstra:DijkstraShortPath<String>) {
         val pathD = dijkstra.getPath2(TEST_VERTEX_D)
         assertEquals(2, pathD!!.size)
         assertEquals(TEST_VERTEX_D, pathD!![1])
