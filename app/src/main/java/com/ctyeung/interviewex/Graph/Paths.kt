@@ -11,10 +11,6 @@ data class Paths<T>(val sourceVertex:T,
         hashMap = HashMap<T, Path<T>>()
         for(vertex in vertexes){
             var path = Path<T>(sourceVertex, vertex, ArrayList<T>())
-
-            if(vertex == sourceVertex)
-                path.isDone = true
-
             hashMap.put(vertex, path)
         }
     }
@@ -41,7 +37,6 @@ data class Paths<T>(val sourceVertex:T,
                 hashSet!!.contains(vertex) -> {
                     var path = hashMap[vertex]
                     path!!.list.add(vertex)
-                    path!!.isDone = true
                     visited.add(vertex)
                 }
                 else -> {
@@ -74,9 +69,16 @@ data class Paths<T>(val sourceVertex:T,
 
                     unvisited.contains(it)-> {
                         var path = hashMap[it]
-                        if(!path!!.isDone) {
-                            path!!.isDone = true
 
+                        if(path!!.list.size == 0){
+                            path!!.list.addAll(prefix!!.list)
+                            path!!.list.add(it as T)
+
+                            visited.add(it)
+                            unvisited.remove(it)
+                        }
+                        else if(prefix!!.list.size < path!!.list.size) {
+                            path!!.list.clear()
                             path!!.list.addAll(prefix!!.list)
                             path!!.list.add(it as T)
 
