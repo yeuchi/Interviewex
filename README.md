@@ -79,7 +79,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 <img width="400" src="https://user-images.githubusercontent.com/1282659/81103180-4e897c00-8ed6-11ea-9c78-c99f3c7e0ca3.png">
 
 #### Dijkstra 05/07/2020
-- just basic path finding on an unweighted graph.
+- basic path finding on an unweighted graph.
 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/DijkstraShortPath.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/DijkstraShortPathTest.kt
