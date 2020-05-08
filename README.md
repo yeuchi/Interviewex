@@ -80,7 +80,6 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 
 #### Dijkstra 05/07/2020
 - just basic path finding on an unweighted graph.
-- a few line changes before it is actually shortest path dijkstra.
 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/DijkstraShortPath.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/DijkstraShortPathTest.kt
