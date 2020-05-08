@@ -5,26 +5,26 @@ import kotlin.math.roundToInt
 /*
  * list is always sorted
  */
-class InsertSort {
-    var list:ArrayList<Int>
+class InsertSort<T> :Comparable() {
+    var list:ArrayList<T>
 
-    constructor(){
-        list = ArrayList<Int>()
+    init {
+        list = ArrayList<T>()
     }
 
     /*
      * bisection rule
      */
-    fun insert(item:Int) {
+    fun insert(item:T) {
         var i = bisection(item)
 
-        if(i<list.size && item > list[i])
+        if(i<list.size &&  largerThan(item as Any, list[i] as Any))
             i++
 
         list.add(i, item)
     }
 
-    fun bisection(ab:Int):Int {
+    fun bisection(ab:T):Int {
 
         var jl = 0
         var ju = list.size
@@ -37,13 +37,13 @@ class InsertSort {
             if(ab == list[jm]) {
                 return jm
             }
-            if(ab < list[jm]) {
+            if(lessThan (ab as Any, list[jm] as Any)) {
                 ju = jm-1
 
                 if(ju >= list.size)
                     return list.size
             }
-            else if (ab > list[jm]){
+            else if (largerThan(ab as Any, list[jm] as Any)){
                 jl = jm+1
 
                 if(jl <= 0)

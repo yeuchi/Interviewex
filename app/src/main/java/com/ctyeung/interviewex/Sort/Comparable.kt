@@ -2,8 +2,84 @@ package com.ctyeung.interviewex.Sort
 
 abstract class Comparable {
 
+    fun lessThan(pre: Any, post:Any):Boolean {
+        when (pre) {
+            is Byte -> {
+                return ((pre as Byte) < (post as Byte))
+            }
+            is Short -> {
+                return ((pre as Short) < (post as Short))
+            }
+            is Int -> {
+                return ((pre as Int) < (post as Int))
+            }
+            is Long -> {
+                return ((pre as Long) < (post as Long))
+            }
+
+            is Double -> {
+                return ((pre as Double) < (post as Double))
+            }
+            is Float -> {
+                return ((pre as Float) < (post as Float))
+            }
+
+            is Char -> {
+                return ((pre as Char) < (post as Char))
+            }
+            is String -> {
+                return (pre as String) < (post as String)
+            }
+            else -> {
+                return pre.toString() < post.toString()
+            }
+        }
+    }
+
+    fun largerThan(pre: Any, post:Any):Boolean {
+        when (pre) {
+            is Byte -> {
+                return ((pre as Byte) > (post as Byte))
+            }
+            is Short -> {
+                return ((pre as Short) > (post as Short))
+            }
+            is Int -> {
+                return ((pre as Int) > (post as Int))
+            }
+            is Long -> {
+                return ((pre as Long) > (post as Long))
+            }
+
+            is Double -> {
+                return ((pre as Double) > (post as Double))
+            }
+            is Float -> {
+                return ((pre as Double) > (post as Double))
+            }
+
+            is Char -> {
+                return ((pre as Char) > (post as Char))
+            }
+            is String -> {
+                return (pre as String) > (post as String)
+            }
+            else -> {
+                return pre.toString() > post.toString()
+            }
+        }
+    }
+
     fun compare(item: Any, next:Any):Int {
         when (item) {
+            is Byte -> {
+                return next as Byte - item as Byte
+            }
+
+            is Short -> {
+                return next as Short - item as Short
+            }
+
             is Int -> {
                 return next as Int - item as Int
             }
@@ -12,9 +88,12 @@ abstract class Comparable {
                 return threshold (num as Double)
             }
 
-            is Double,
-            is Float -> {
+            is Double-> {
                 val real = next as Double  - item as Double
+                return threshold (real as Double)
+            }
+            is Float -> {
+                val real = next as Float  - item as Float
                 return threshold (real as Double)
             }
 

@@ -173,20 +173,27 @@ class BinaryTree<T>(t:T):IComparable<T> {
 
     override fun compareTo(t: T):Int {
         when (t) {
+            is Short -> {
+                return t as Short - item as Short
+            }
+            is Byte -> {
+                return t as Byte - item as Byte
+            }
             is Int -> {
                 return t as Int - item as Int
             }
             is Long -> {
                 val num = t as Long - item as Long
-                return threshold (num as Double)
+                return threshold (num.toDouble())
             }
-
-            is Double,
-            is Float -> {
+            is Double-> {
                 val real = t as Double  - item as Double
                 return threshold (real as Double)
             }
-
+            is Float -> {
+                val real = t as Float  - item as Float
+                return threshold (real.toDouble())
+            }
             is Char -> {
                 return (t as Char).compareTo(item as Char)
             }

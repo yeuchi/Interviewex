@@ -21,7 +21,7 @@ class InsertSortTest {
                                         TEST_NUM4,
                                         TEST_NUM2,
                                         TEST_NUM5)
-        var sort = InsertSort()
+        var sort = InsertSort<Int>()
         sort.insert(list[0])
         sort.insert(list[1])
         sort.insert(list[2])
