@@ -38,11 +38,14 @@ https://github.com/yeuchi/Interviewex/tree/master/app/src/main/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Tree/BinaryTreeTest.kt
 <img width="260" src="https://user-images.githubusercontent.com/1282659/81089266-c4371d00-8ec1-11ea-81fa-aa5baac62692.png">
 
-#### Graph 05/5/2020
+#### Graph 05/05/2020
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/Graph.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/GraphTest.kt
 <img width="290" src="https://user-images.githubusercontent.com/1282659/81088917-470ba800-8ec1-11ea-9f5f-52103767445a.png">
 
+#### Histogram / Probability 05/08/2020
+https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/Population.kt
+https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/PopulationTest.kt
 
 ## Sort
 
@@ -83,6 +86,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/DijkstraShortPath.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/DijkstraShortPathTest.kt
+
 
 ## Android basics
 
