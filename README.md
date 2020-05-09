@@ -95,7 +95,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/CodeTree.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/CodeTreeTest.kt
 
-#### Huffman Code map 05/09/2020
+#### Huffman Code map 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/Huffman.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/HuffmanTest.kt
 
