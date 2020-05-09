@@ -32,6 +32,22 @@ class HuffmanTest {
     }
 
     @Test
+    fun bitLength() {
+        val EXPECTED_BIT_COUNT = 7 * 2 +    // TEST_VERTEX_G - 00
+                                 6 * 2 +    // TEST_VERTEX_F - 01
+                                 5 * 3 +    // TEST_VERTEX_E - 100
+                                 4 * 3 +    // TEST_VERTEX_D - 101
+                                 3 * 4 +    // TEST_VERTEX_C - 1100
+                                 2 * 4 +    // TEST_VERTEX_B - 1101
+                                 1 * 5      // TEST_VERTEX_A - 11100
+
+        val population = createPopulation()
+        var huffman = Huffman<String>(population.histogram)
+        val bitCount = huffman.bitLength(population.data)
+        assertEquals(EXPECTED_BIT_COUNT, bitCount)
+    }
+
+    @Test
     fun encode() {
 
     }

@@ -32,8 +32,25 @@ class Huffman<T>  {
         }
     }
 
-    fun encode() {
+    fun bitLength(message:ArrayList<T>):Int {
+        var bitCount:Int = 0
+        for(key in message){
+            val code = codeMap[key]
+            bitCount += code!!.size
+        }
+        return bitCount
+    }
 
+    fun encode(message:ArrayList<T>, byteCount:Int):ByteArray {
+        var bytes = ByteArray(byteCount)
+        var ptr = 0
+        for(key in message) {
+            val code = codeMap[key]
+            for(c in code!!) {
+
+            }
+        }
+        return bytes
     }
 
     fun decode() {
