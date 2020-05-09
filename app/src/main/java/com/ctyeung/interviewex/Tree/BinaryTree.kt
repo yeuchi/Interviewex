@@ -1,9 +1,9 @@
 package com.ctyeung.interviewex.Tree
 
-class BinaryTree<T>(t:T):IComparable<T> {
+open class BinaryTree<T>(t:T):IComparable<T> {
     var item = t
-    var left:BinaryTree<T>? = null
-    var right:BinaryTree<T>? = null
+    open var left:BinaryTree<T>? = null
+    open var right:BinaryTree<T>? = null
 
     companion object {
         var hashMap = HashMap<Int, HashSet<Any>>()
