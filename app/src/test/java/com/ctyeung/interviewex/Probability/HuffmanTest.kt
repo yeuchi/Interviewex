@@ -14,6 +14,24 @@ class HuffmanTest {
     val TEST_VERTEX_G = "G"
 
     @Test
+    fun constructor() {
+        val population = createPopulation()
+        var huffman = Huffman<String>(population.histogram)
+
+        /*
+         * Test huffman code map
+         * - highest probability string is represented by smallest code
+         */
+        assertEquals(arrayListOf(0,0), huffman.codeMap[TEST_VERTEX_G])
+        assertEquals(arrayListOf(0,1), huffman.codeMap[TEST_VERTEX_F])
+        assertEquals(arrayListOf(1,0,0), huffman.codeMap[TEST_VERTEX_E])
+        assertEquals(arrayListOf(1,0,1), huffman.codeMap[TEST_VERTEX_D])
+        assertEquals(arrayListOf(1,1,0,0), huffman.codeMap[TEST_VERTEX_C])
+        assertEquals(arrayListOf(1,1,0,1), huffman.codeMap[TEST_VERTEX_B])
+        assertEquals(arrayListOf(1,1,1,0,0), huffman.codeMap[TEST_VERTEX_A])
+    }
+
+    @Test
     fun encode() {
 
     }

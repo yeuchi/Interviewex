@@ -6,7 +6,7 @@ import com.ctyeung.interviewex.Sort.Comparable
 /*
  *           (root)          priority queue
  *           /    \
- *        (0)      (1)       left -> children store values
+ *        (0)      (1)       store values on left leaf nodes (children)
  *       /  \     /   \
  *     (A)  (B) (0)   (1)
  *             /  \  /  \

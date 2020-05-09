@@ -3,7 +3,7 @@ package com.ctyeung.interviewex.Probability
 import com.ctyeung.interviewex.Sort.InsertSort
 
 class Huffman<T>  {
-    var codeMap = HashMap<T, Long>()
+    var codeMap = HashMap<T, ArrayList<Int>>()
 
     constructor(histogram:HashMap<T, Int>){
         var sort = InsertSort<T>()
@@ -12,7 +12,7 @@ class Huffman<T>  {
         }
         val sorted = sort.list
         val tree = buildTree(sorted)
-        getCodeMap(tree)
+        getCodeMap(histogram.keys, tree)
     }
 
     private fun buildTree(sorted:ArrayList<T>):CodeTree<T> {
@@ -24,8 +24,12 @@ class Huffman<T>  {
         return tree
     }
 
-    private fun getCodeMap(tree:CodeTree<T>) {
+    private fun getCodeMap(keys:MutableSet<T>, tree:CodeTree<T>) {
         codeMap.clear()
+        for(key in keys){
+            val codeList = tree.code(key)
+            codeMap.put(key, codeList!!)
+        }
     }
 
     fun encode() {
