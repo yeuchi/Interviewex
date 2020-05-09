@@ -43,9 +43,6 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/GraphTest.kt
 <img width="290" src="https://user-images.githubusercontent.com/1282659/81088917-470ba800-8ec1-11ea-9f5f-52103767445a.png">
 
-#### Histogram / Probability 05/08/2020
-https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/Population.kt
-https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/PopulationTest.kt
 
 ## Sort
 
@@ -86,6 +83,17 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Graph/DijkstraShortPath.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Graph/DijkstraShortPathTest.kt
+
+
+## Probability
+
+#### Population - histogram / probability 05/08/2020
+https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/Population.kt
+https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/PopulationTest.kt
+
+#### Huffman Code tree 05/09/2020
+https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/CodeTree.kt
+https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/CodeTreeTest.kt
 
 
 ## Android basics
