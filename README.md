@@ -125,3 +125,6 @@ https://www.geeksforgeeks.org/quick-sort/
 
 5. Algorithms in Kotlin, Graphs, Part 5/7 by Nazmul Idris, Aug 16, 2018 \
 https://developerlife.com/2018/08/16/algorithms-in-kotlin-5/#undirected-graphs
+
+6. Huffman Coding : A CS2 Assignment
+https://www2.cs.duke.edu/csed/poop/huff/info/
