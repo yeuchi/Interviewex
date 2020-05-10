@@ -4,7 +4,6 @@ Interview exercises in Kotlin : Algorithm and data structure
 - basic operators (No detail edge cases)
 - speed implementation of code / happy path tests for interview. (not optimized)
 - Junit tests cover 'happy paths' (no failure, boundary conditions)
-- little generic coverage.
 
 
 ## Data structures
@@ -140,3 +139,6 @@ https://developerlife.com/2018/08/16/algorithms-in-kotlin-5/#undirected-graphs
 
 6. Huffman Coding : A CS2 Assignment
 https://www2.cs.duke.edu/csed/poop/huff/info/
+
+7. [Kotlin] Operator overloading by romainbsl
+https://www.codingame.com/playgrounds/6847/kotlin-operator-overloading
