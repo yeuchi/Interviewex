@@ -78,19 +78,25 @@ class Huffman<T>  {
     fun decode(bytes:ByteArray):ArrayList<T> {
         var message = ArrayList<T>()
         var code = ArrayList<Int>()
+        var bitPtr = 0
         for(byte in bytes) {
-            var mask:Byte = 1
             for(i in 0..7) {
-                if(mask and byte > 0) {
+                var bitShift = bitPtr % 8
+                var mask:Int = 1 shl bitShift
+
+                if(mask and byte.toInt() > 0) {
                     code.add(1)
                 }
                 else
                     code.add(0)
-            }
-            if(invMap.contains(code)) {
-                val t = invMap[code]
-                message.add(t!!)
-                code.clear()
+
+                bitPtr++
+
+                if(invMap.contains(code)) {
+                    val t = invMap[code]
+                    message.add(t!!)
+                    code.clear()
+                }
             }
         }
         return message

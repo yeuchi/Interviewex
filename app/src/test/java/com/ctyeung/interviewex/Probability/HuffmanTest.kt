@@ -47,6 +47,17 @@ class HuffmanTest {
         assertEquals(EXPECTED_BIT_COUNT, bitCount)
     }
 
+    fun getExpectedEncoded():ByteArray {
+        /*
+         * Message: ABBCCCDDDDEEEEEFFFFFFGGGGGGG
+         * Code:    111001101110111001100110010110110110110010010010010001010101010100000000000000
+         * Bytes:   1110 0110 | 1110 1110 | 0110 0110 | 0101 1011 | 0110 1100 | 1001 0010 | 0100 0101 | 0101 0101 0000 | 0000 0000 | 00
+         * Int:     103       | 119       | 102       | -38       | 54        | 73        | -94       | -86            | 0         | 0
+         */
+        var expected = byteArrayOf(103, 119,102,-38,54,73,-94,-86,0,0)
+        return expected
+    }
+
     @Test
     fun encode() {
         val population = createPopulation()
@@ -57,16 +68,26 @@ class HuffmanTest {
             byteLength ++
 
         val byteArray = huffman.encode(population.data, byteLength)
-        var expected = byteArrayOf(103, 119,102,-38,54,73,-94,-86,0,0)
+        var expected = getExpectedEncoded()
         assertEquals(expected.size, byteArray.size)
-        
+
         for(i in 0..byteArray.size-1)
             assertEquals(expected[i], byteArray[i])
     }
 
     @Test
     fun decode() {
+        val population = createPopulation()
+        var huffman = Huffman<String>(population.histogram)
 
+        var source = getExpectedEncoded()
+        val message = huffman.decode(source)
+
+        var expected = createDataSet()
+        expected.add(TEST_VERTEX_G) // extra character to meet byte width
+        
+        assertEquals(expected.size, message.size)
+        assertEquals(expected, message)
     }
 
     private fun createPopulation():Population<String> {
