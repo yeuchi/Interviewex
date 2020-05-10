@@ -46,8 +46,8 @@ class Huffman<T>  {
     }
 
     infix fun Byte.shl(that: Int): Int = this.toInt().shl(that)
-    infix fun Byte.or(that: Byte): Byte = this.or(that)
-    infix fun Byte.and(that: Byte): Byte = this.and(that)
+    infix fun Byte.or(that: Byte): Byte = this.toInt().or(that.toInt()).toByte()
+    infix fun Byte.and(that: Byte): Byte = this.toInt().and(that.toInt()).toByte()
 
     /*
      * Need to add 'End-of-message' code
@@ -64,11 +64,10 @@ class Huffman<T>  {
                     var byteIndex = bitPtr / 8
                     var bitShift = bitPtr % 8
 
-                    var mask:Byte = 1
-                    mask shl bitShift
+                    var mask:Int = 1 shl bitShift
 
-                    val byte = bytes[byteIndex]
-                    bytes[byteIndex] = byte or mask
+                    val EightBits = bytes[byteIndex].toInt()
+                    bytes[byteIndex] = (EightBits or mask).toByte()
                 }
                 bitPtr ++
             }

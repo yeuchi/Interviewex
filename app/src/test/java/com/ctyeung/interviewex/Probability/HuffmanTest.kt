@@ -57,6 +57,11 @@ class HuffmanTest {
             byteLength ++
 
         val byteArray = huffman.encode(population.data, byteLength)
+        var expected = byteArrayOf(103, 119,102,-38,54,73,-94,-86,0,0)
+        assertEquals(expected.size, byteArray.size)
+        
+        for(i in 0..byteArray.size-1)
+            assertEquals(expected[i], byteArray[i])
     }
 
     @Test
