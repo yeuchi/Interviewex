@@ -20,7 +20,7 @@ object QuickSort :Comparable(){
                 p = 0
 
             for(num in list){
-                if(compare(num, list[p]) > 0) {
+                if(num > list[p]) {
                     listLeft.add(num)
                 }
                 else {

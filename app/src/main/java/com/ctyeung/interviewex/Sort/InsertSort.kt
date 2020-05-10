@@ -18,9 +18,10 @@ class InsertSort<T> :Comparable() {
     fun insert(item:T) {
         var i = bisection(item)
 
-        if(i<list.size &&  largerThan(item as Any, list[i] as Any))
-            i++
-
+        if(i < list.size) {
+            if (i < list.size && item!! > list[i] as Any)
+                i++
+        }
         list.add(i, item)
     }
 
@@ -37,13 +38,13 @@ class InsertSort<T> :Comparable() {
             if(ab == list[jm]) {
                 return jm
             }
-            if(lessThan (ab as Any, list[jm] as Any)) {
+            if(ab!! < list[jm] as Any) {
                 ju = jm-1
 
                 if(ju >= list.size)
                     return list.size
             }
-            else if (largerThan(ab as Any, list[jm] as Any)){
+            else if (ab > list[jm] as Any){
                 jl = jm+1
 
                 if(jl <= 0)

@@ -23,11 +23,11 @@ class MergeSortTest {
 
         var sorted = MergeSort.sort(list)
 
-        assertEquals(TEST_NUM1, sorted[0])
-        assertEquals(TEST_NUM2, sorted[1])
-        assertEquals(TEST_NUM3, sorted[2])
-        assertEquals(TEST_NUM4, sorted[3])
-        assertEquals(TEST_NUM5, sorted[4])
-        assertEquals(TEST_NUM6, sorted[5])
+        assertEquals(TEST_NUM1, sorted[5])
+        assertEquals(TEST_NUM2, sorted[4])
+        assertEquals(TEST_NUM3, sorted[3])
+        assertEquals(TEST_NUM4, sorted[2])
+        assertEquals(TEST_NUM5, sorted[1])
+        assertEquals(TEST_NUM6, sorted[0])
     }
 }

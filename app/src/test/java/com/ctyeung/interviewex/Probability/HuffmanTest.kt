@@ -49,7 +49,14 @@ class HuffmanTest {
 
     @Test
     fun encode() {
+        val population = createPopulation()
+        var huffman = Huffman<String>(population.histogram)
+        val bitCount = huffman.bitLength(population.data)
+        var byteLength = bitCount / 8
+        if(bitCount % 8 != 0)
+            byteLength ++
 
+        val byteArray = huffman.encode(population.data, byteLength)
     }
 
     @Test

@@ -19,7 +19,7 @@ object MergeSort : Comparable() {
             while (l < sortedLeft.size && r < sortedRight.size) {
                 val left = sortedLeft[l]
                 val right = sortedRight[r]
-                if (compare(left, right) > 0) {
+                if (left > right) {
                     sorted.add(left)
                     l++
                 } else {

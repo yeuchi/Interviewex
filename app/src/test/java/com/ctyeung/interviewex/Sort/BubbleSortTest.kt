@@ -22,11 +22,11 @@ class BubbleSortTest {
                                         TEST_NUM5)
         BubbleSort.sort(list)
 
-        assertEquals(TEST_NUM1, list[0])
-        assertEquals(TEST_NUM2, list[1])
-        assertEquals(TEST_NUM3, list[2])
-        assertEquals(TEST_NUM4, list[3])
-        assertEquals(TEST_NUM5, list[4])
-        assertEquals(TEST_NUM6, list[5])
+        assertEquals(TEST_NUM1, list[5])
+        assertEquals(TEST_NUM2, list[4])
+        assertEquals(TEST_NUM3, list[3])
+        assertEquals(TEST_NUM4, list[2])
+        assertEquals(TEST_NUM5, list[1])
+        assertEquals(TEST_NUM6, list[0])
     }
 }

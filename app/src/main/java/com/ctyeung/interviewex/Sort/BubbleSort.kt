@@ -10,7 +10,7 @@ object BubbleSort:Comparable() {
             for(j in 0..list.size-2){
                 val item = list[j]
                 val next = list[j+1]
-                if (compare(item, next) < 0) {
+                if(item < next) {
                     list[j] = next
                     list[j+1] = item
                     hasChanged = true
