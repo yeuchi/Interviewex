@@ -5,7 +5,7 @@ import kotlin.math.roundToInt
 /*
  * list is always sorted
  */
-class InsertSort<T> :Comparable() {
+class InsertSort<T> :Comparable<T>() {
     var list:ArrayList<T>
 
     init {
@@ -19,7 +19,7 @@ class InsertSort<T> :Comparable() {
         var i = bisection(item)
 
         if(i < list.size) {
-            if (i < list.size && item!! > list[i] as Any)
+            if (i < list.size && item!! > list[i])
                 i++
         }
         list.add(i, item)
@@ -38,13 +38,13 @@ class InsertSort<T> :Comparable() {
             if(ab == list[jm]) {
                 return jm
             }
-            if(ab!! < list[jm] as Any) {
+            if(ab!! < list[jm]) {
                 ju = jm-1
 
                 if(ju >= list.size)
                     return list.size
             }
-            else if (ab > list[jm] as Any){
+            else if (ab > list[jm]){
                 jl = jm+1
 
                 if(jl <= 0)

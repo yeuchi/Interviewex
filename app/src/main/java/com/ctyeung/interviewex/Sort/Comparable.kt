@@ -1,8 +1,10 @@
 package com.ctyeung.interviewex.Sort
 
-abstract class Comparable {
+import java.lang.Exception
 
-     operator fun Any.compareTo(other: Any): Int = when(this) {
+abstract class Comparable<T> {
+
+     operator fun Any.compareTo(other: T): Int = when(this) {
          is Byte -> {
              this as Byte - other as Byte
          }
@@ -34,7 +36,7 @@ abstract class Comparable {
              (this as String).compareTo(other as String)
          }
          else -> {
-             this.toString().compareTo(other.toString())
+             throw Exception("type not supported")
          }
      }
 

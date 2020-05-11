@@ -1,13 +1,13 @@
 package com.ctyeung.interviewex.Sort
 
-object MergeSort : Comparable() {
+class MergeSort<T> : Comparable<T>() {
 
-    fun sort(list:ArrayList<Any>, depth:Int=0):ArrayList<Any> {
+    fun sort(list:ArrayList<T>, depth:Int=0):ArrayList<T> {
 
         if(list.size > 1){
             val mid = list.size / 2
-            var subListLeft= ArrayList<Any>(list.subList(0, mid))
-            var subListRight = ArrayList<Any>(list.subList(mid, list.size))
+            var subListLeft= ArrayList<T>(list.subList(0, mid))
+            var subListRight = ArrayList<T>(list.subList(mid, list.size))
 
             var sortedLeft = sort(subListLeft, depth)
             var sortedRight = sort(subListRight, depth)
@@ -15,11 +15,11 @@ object MergeSort : Comparable() {
             var r = 0
 
             // sorted 2 list
-            var sorted = ArrayList<Any>()
+            var sorted = ArrayList<T>()
             while (l < sortedLeft.size && r < sortedRight.size) {
                 val left = sortedLeft[l]
                 val right = sortedRight[r]
-                if (left > right) {
+                if (left!! > right) {
                     sorted.add(left)
                     l++
                 } else {

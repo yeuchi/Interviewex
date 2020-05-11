@@ -14,14 +14,15 @@ class MergeSortTest {
 
     @Test
     fun sort() {
-        var list = arrayListOf<Any>(TEST_NUM3,
+        var list = arrayListOf<Int>(TEST_NUM3,
                                     TEST_NUM1,
                                     TEST_NUM6,
                                     TEST_NUM4,
                                     TEST_NUM2,
                                     TEST_NUM5)
 
-        var sorted = MergeSort.sort(list)
+        var merge = MergeSort<Int>()
+        var sorted = merge.sort(list)
 
         assertEquals(TEST_NUM1, sorted[5])
         assertEquals(TEST_NUM2, sorted[4])

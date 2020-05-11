@@ -3,16 +3,16 @@ package com.ctyeung.interviewex.Sort
 import java.util.Random
 import kotlin.random.Random.Default
 
-object QuickSort :Comparable(){
+class QuickSort<T> :Comparable<T>(){
 
     /*
      * Any pivot is ok so long it does change so we can stuck in an infinite loop
      * Random is not random, so use an incremental pivot
      */
-    fun sort(list:ArrayList<Any>, pivot:Int=0):ArrayList<Any>{
+    fun sort(list:ArrayList<T>, pivot:Int=0):ArrayList<T>{
         if(list.size > 1) {
-            var listLeft = ArrayList<Any>()
-            var listRight = ArrayList<Any>()
+            var listLeft = ArrayList<T>()
+            var listRight = ArrayList<T>()
 
             // divide list
             var p = pivot
@@ -20,7 +20,7 @@ object QuickSort :Comparable(){
                 p = 0
 
             for(num in list){
-                if(num > list[p]) {
+                if(num!! > list[p]) {
                     listLeft.add(num)
                 }
                 else {
