@@ -97,7 +97,7 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 #### Huffman coding / decoding
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/Huffman.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/HuffmanTest.kt
-
+<img width="380" src="https://user-images.githubusercontent.com/1282659/81514800-93f2e280-92f6-11ea-889b-040542d6cd61.png">
 
 ## Android basics
 
