@@ -4,6 +4,7 @@ Interview exercises in Kotlin : Algorithm and data structure
 - basic operators (No detail edge cases)
 - speed implementation of code / happy path tests for interview. (not optimized)
 - Junit tests cover 'happy paths' (no failure, boundary conditions)
+- Kotlin infix, compareTo, operator, extension, generic.
 
 
 ## Data structures
