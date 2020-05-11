@@ -4,6 +4,7 @@ Interview exercises in Kotlin : Algorithm and data structure
 - basic operators (No detail edge cases)
 - speed implementation of code / happy path tests for interview. (not optimized)
 - Junit tests cover 'happy paths' (no failure, boundary conditions)
+- Kotlin infix, compareTo, operator, extension, generic.
 
 
 ## Data structures
@@ -94,9 +95,10 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/CodeTree.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/CodeTreeTest.kt
 
-#### Huffman Code map 
+#### Huffman coding / decoding
 https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/Probability/Huffman.kt
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/HuffmanTest.kt
+<img width="380" src="https://user-images.githubusercontent.com/1282659/81514800-93f2e280-92f6-11ea-889b-040542d6cd61.png">
 
 
 ## Android basics
