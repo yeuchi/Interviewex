@@ -26,6 +26,8 @@ class DetailFragmentTest {
         //val factory = MyFragmentFactory()
         val scenario = launchFragmentInContainer<DetailFragment>(fragmentArgs)
         onView(withId(R.id.txtName)).check(matches(withText("Andorra")))
+        onView(withId(R.id.txtCapital)).check(matches(withText("Andorra la Vella")))
+        onView(withId(R.id.txtSubRegion)).check(matches(withText("Southern Europe")))
     }
 
     private fun getCountryString(): String {
