@@ -147,3 +147,5 @@ https://www2.cs.duke.edu/csed/poop/huff/info/
 
 7. [Kotlin] Operator overloading by romainbsl
 https://www.codingame.com/playgrounds/6847/kotlin-operator-overloading
+
+8. Digital Image compression Techniques by Majid Rabbani, Paul W. Jones, SPIE Optical Engineering Press, 1991
