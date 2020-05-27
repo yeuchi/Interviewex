@@ -100,6 +100,12 @@ https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/
 https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/Probability/HuffmanTest.kt
 <img width="380" src="https://user-images.githubusercontent.com/1282659/81570241-f0d9b180-9365-11ea-8325-b0b7d9a9867f.png">
 
+## LeetCode + Facebook 
+
+(Almost) Palindrome
+https://github.com/yeuchi/Interviewex/blob/master/app/src/main/java/com/ctyeung/interviewex/LeetCode/Palidrome.kt
+https://github.com/yeuchi/Interviewex/blob/master/app/src/test/java/com/ctyeung/interviewex/LeetCode/PalidromeTest.kt
+
 
 ## Android basics
 
