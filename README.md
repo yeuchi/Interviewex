@@ -124,6 +124,9 @@ nav_graph https://github.com/yeuchi/Interviewex/tree/master/app/src/main/res/nav
 
 <img width="400" src="https://user-images.githubusercontent.com/1282659/80932459-1292d180-8d85-11ea-928f-09aaf396dde6.png">  <img width="400" src="https://user-images.githubusercontent.com/1282659/80932457-11fa3b00-8d85-11ea-88a6-2bc91c3f6cde.png">
 
+#### Espresso FragmentScenario
+https://github.com/yeuchi/Interviewex/blob/master/app/src/androidTest/java/com/ctyeung/interviewex/DetailFragmentTest.kt
+
 
 ## References
 1. Merge Sort GeeksforGeeks
@@ -144,3 +147,5 @@ https://www2.cs.duke.edu/csed/poop/huff/info/
 
 7. [Kotlin] Operator overloading by romainbsl
 https://www.codingame.com/playgrounds/6847/kotlin-operator-overloading
+
+8. Digital Image compression Techniques by Majid Rabbani, Paul W. Jones, SPIE Optical Engineering Press, 1991
