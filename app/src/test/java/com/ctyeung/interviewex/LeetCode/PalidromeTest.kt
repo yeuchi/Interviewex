@@ -23,13 +23,16 @@ class PalidromeTest {
     fun almostPalindrome() {
         var test = Solution()
 
+        // "babab" is a palindrome
         var isTrue = test.almostPalindrome(WORD1)
         Assert.assertEquals(true, isTrue)
 
+        // Remove 1 character "cbab[c]c" -> cbabc
         isTrue = test.almostPalindrome(WORD3)
         Assert.assertEquals(true, isTrue)
 
-        isTrue = test.almostPalindrome(WORD2)
-        Assert.assertEquals(false, isTrue)
+        // "cbbd" has 2 invalid characters
+        var isFalse = test.almostPalindrome(WORD2)
+        Assert.assertEquals(false, isFalse)
     }
 }
