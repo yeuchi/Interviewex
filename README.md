@@ -155,3 +155,5 @@ https://www2.cs.duke.edu/csed/poop/huff/info/
 https://www.codingame.com/playgrounds/6847/kotlin-operator-overloading
 
 8. Digital Image compression Techniques by Majid Rabbani, Paul W. Jones, SPIE Optical Engineering Press, 1991
+
+9. Discrete Mathematics and Its Applications, 3rd Edition by Kenneth H. Rosen, ISBN 0 0-07-053965-0
